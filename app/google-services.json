@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221074885960",
+    "project_id": "quizonlain",
+    "storage_bucket": "quizonlain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221074885960:android:4c15df97faaa40ef9bb77d",
+        "android_client_info": {
+          "package_name": "com.example.quizonlain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221074885960-150qdnvkjkuudqkh7r91tsumlhcrekqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJr0HTT5s56iP5Algd-nGLh1LAINrFQ8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221074885960-150qdnvkjkuudqkh7r91tsumlhcrekqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

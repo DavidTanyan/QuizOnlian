@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">QuizOnlain</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="sign_up">sign up</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="login">login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="update_password">Update password</string>
+    <string name="Sing_up">Registration</string>
+    <string name="Register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Phone_num">Phone number</string>
+    <string name="Skip">Skip</string>
+    <string name="title_cont">Add a vericle</string>
+    <string name="content">This information will help us provide the most relevant data</string>
+    <string name="add">Add +</string>
+    <string name="error">Error</string>
+    <string name="Sing_in">Sing in</string>
+    <string name="Log_in">Log in</string>
+    <string name="start">Start quiz</string>
+    <string name="sign_out">sign out</string>
+    <string name="send_link_to_email">send link to email</string>
+    <string name="infoquiz">Keeping yourself entertained and educated is just a quiz away. Want to have some fun or learn about a topic? Curated to learn while having fun, our online quizzes are an excellent source of knowledge and entertainment. Take a quiz today to discover amazing facts about yourself or the world.</string>
+    <string name="firstquiz">First quiz</string>
+    <string name="secondquiz">Second quiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="kitxva1">What is the difference between val and var in Kotlin?</string>
+    <string name="a_quiz1">A. Variables declared with var are final those with val are not</string>
+    <string name="b_quiz1">B. Variables declared with val can only access const members</string>
+    <string name="c_quiz1">C. Variables declared with val are final,those with val are not</string>
+    <string name="d_quiz1">D. var  is scoped to the nearest  function block and val is scoped to the nearest enclosing block</string>
+    <string name="kitxva2">Does Kotlin have primitive data types, such as int, long, float?</string>
+    <string name="a_quiz2">A. Yes, Kotlin is similar to Java in this respect</string>
+    <string name="b_quiz2">B. No, Kotlin does not have nor use primitive data types</string>
+    <string name="c_quiz2">C. Yes, but Kotlin internally always converts them to their non-primitive counterparts</string>
+    <string name="d_quiz2">D. No, not at language level. But the Kotlin compiler makes use of JVM primitives for best performance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
