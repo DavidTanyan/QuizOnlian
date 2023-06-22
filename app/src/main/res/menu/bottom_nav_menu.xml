@@ -9,8 +9,5 @@
         android:id="@+id/quizFragment"
         android:icon="@drawable/baseline_quiz_24"
         android:title="Quiz" />
-    <item
-        android:id="@+id/settingFragment"
-        android:icon="@drawable/baseline_settings_24"
-        android:title="Setting" />
+
 </menu>

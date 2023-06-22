@@ -8,24 +8,23 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.quizonlain.HomeFragment"
-        android:label="fragment_home"
+        android:label="Home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_homeFragment_to_quizFragment"
-            app:destination="@id/quizFragment" />
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/quizFragment"
         android:name="com.example.quizonlain.QuizFragment"
-        android:label="fragment_quiz"
-        tools:layout="@layout/fragment_quiz" >
-        <action
-            android:id="@+id/action_quizFragment_to_settingFragment"
-            app:destination="@id/settingFragment" />
-    </fragment>
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz" />
     <fragment
-        android:id="@+id/settingFragment"
-        android:name="com.example.quizonlain.SettingFragment"
-        android:label="fragment_setting"
-        tools:layout="@layout/fragment_setting" />
+        android:id="@+id/settingsFragment"
+        android:name="com.example.quizonlain.SettingsFragment"
+        android:label="Settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
 </navigation>
