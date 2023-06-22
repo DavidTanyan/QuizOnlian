@@ -12,10 +12,7 @@
         android:theme="@style/Theme.QuizOnlain"
         tools:targetApi="31">
         <activity
-            android:name=".Profilee"
-            android:exported="false" />
-        <activity
-            android:name=".Quiz"
+            android:name=".QuizActivity"
             android:exported="false" />
         <activity
             android:name=".ForgotPassword"

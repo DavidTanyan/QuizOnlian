@@ -9,7 +9,6 @@ import com.google.firebase.auth.FirebaseAuth
 
 class Sign_in : AppCompatActivity() {
     private lateinit var binding: ActivitySignInBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySignInBinding.inflate(layoutInflater)
@@ -57,6 +56,6 @@ class Sign_in : AppCompatActivity() {
     }
 
     fun goToProfile() {
-        startActivity(Intent(this@Sign_in, Profile::class.java))
+        startActivity(Intent(this@Sign_in, QuizActivity::class.java))
     }
 }

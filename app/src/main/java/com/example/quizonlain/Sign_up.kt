@@ -3,13 +3,8 @@ package com.example.quizonlain
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
-import com.example.quizonlain.databinding.ActivitySignInBinding
 import com.example.quizonlain.databinding.ActivitySignUpBinding
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -39,7 +34,6 @@ class Sign_up : AppCompatActivity() {
                     Toast.makeText(this@Sign_up, "Error Email is not correct!", Toast.LENGTH_SHORT).show()
                     return@setOnClickListener
                 }
-
                 if(password.isEmpty() || password.length < 5 ||password.contains(' ') )
                 {
                     Toast.makeText(this@Sign_up, "Error password minimum 5 simbol!", Toast.LENGTH_SHORT).show()

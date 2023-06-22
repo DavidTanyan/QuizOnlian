@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.quizonlain.databinding.ActivityUpadatePasswordBinding
 import com.google.firebase.auth.FirebaseAuth
-
 class UpadatePassword : AppCompatActivity() {
 
         private lateinit var binding: ActivityUpadatePasswordBinding
