@@ -31,7 +31,16 @@ private  var _binding : FragmentQuizBinding? = null
     }
     var count =0
     fun init(){
-
+binding.apply {
+    textQuizTitle.setVisibility(View.VISIBLE)
+    quiztimertext.setVisibility(View.VISIBLE)
+    quizqula.setVisibility(View.VISIBLE)
+    textContQv.setVisibility(View.VISIBLE)
+    btA.setVisibility(View.VISIBLE)
+    btB.setVisibility(View.VISIBLE)
+    btC.setVisibility(View.VISIBLE)
+    btD.setVisibility(View.VISIBLE)
+}
         binding.apply {
             textContQv.setVisibility(View.GONE)
             fotoquiz.setVisibility(View.GONE)

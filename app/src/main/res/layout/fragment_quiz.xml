@@ -13,7 +13,9 @@
         android:gravity="center"
         android:text="დედაქალაქები"
         android:textColor="@color/black"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:visibility="gone"
+        />
 
     <Button
         android:id="@+id/btStartQuiz"
@@ -32,7 +34,9 @@
         android:layout_marginStart="170dp"
         android:layout_marginTop="100dp"
         android:text="00:00"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:visibility="gone"
+        />
 
     <TextView
         android:id="@+id/quizqula"
@@ -42,7 +46,9 @@
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="0"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:visibility="gone"
+        />
 
     <ImageView
         android:id="@+id/fotoquiz"
@@ -51,7 +57,7 @@
         android:layout_marginTop="110dp"
         android:layout_marginBottom="100dp"
         android:src="@drawable/quiz"
-android:visibility="gone"
+        android:visibility="gone"
         />
 
     <TextView
@@ -63,7 +69,7 @@ android:visibility="gone"
         android:layout_marginStart="20dp"
         android:layout_marginTop="460dp"
         android:textColor="@color/black"
-
+        android:visibility="gone"
         />
 
     <Button
@@ -71,9 +77,9 @@ android:visibility="gone"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="A"
-
         android:layout_marginStart="20dp"
         android:layout_marginTop="500dp"
+        android:visibility="gone"
         />
     <Button
         android:id="@+id/btB"
@@ -82,6 +88,7 @@ android:visibility="gone"
         android:text="B"
         android:layout_marginStart="220dp"
         android:layout_marginTop="500dp"
+        android:visibility="gone"
         />
     <Button
         android:id="@+id/btC"
@@ -90,6 +97,7 @@ android:visibility="gone"
         android:text="C"
         android:layout_marginStart="20dp"
         android:layout_marginTop="570dp"
+        android:visibility="gone"
         />
     <Button
         android:id="@+id/btD"
@@ -98,6 +106,7 @@ android:visibility="gone"
         android:text="D"
         android:layout_marginStart="220dp"
         android:layout_marginTop="570dp"
+        android:visibility="gone"
         />
 
 </FrameLayout>
